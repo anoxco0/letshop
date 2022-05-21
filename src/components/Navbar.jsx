@@ -11,17 +11,16 @@ import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import AccountCircle from '@mui/icons-material/AccountCircle';
-import MailIcon from '@mui/icons-material/Mail';
-import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
 import logo from '../images/letshop.png'
 import { useDispatch, useSelector } from 'react-redux';
 import { drawer } from '../redux/Home/action';
 import { useNavigate } from 'react-router-dom';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import { get_cart} from '../redux/cart/action';
+import { get_cart } from '../redux/cart/action';
+import { Button } from '@mui/material';
 
-const Search = styled('div')(({ theme }) => ({  
+const Search = styled('div')(({ theme }) => ({
   position: 'relative',
   borderRadius: theme.shape.borderRadius,
   backgroundColor: alpha(theme.palette.common.white, 0.15),
@@ -59,62 +58,44 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
     },
   },
 }));
-export const  Navbar=()=>{
+export const Navbar = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   // const [TotalItems, setTotalItems] = React.useState(0)
-  const {TotalItems} = useSelector(store=>store.cart_red);
-  React.useEffect(()=>{
+  const { TotalItems } = useSelector(store => store.cart_red);
+  const user_Status = localStorage.getItem('user_status');
+  // console.log(user_Status)
+  React.useEffect(() => {
     dispatch(get_cart());
-  },[TotalItems,dispatch])
-  const toggleDrawer = (Boolean)=>{
-      dispatch(drawer(Boolean))
+  }, [TotalItems, dispatch])
+  const toggleDrawer = (Boolean) => {
+    dispatch(drawer(Boolean))
   }
-  const [anchorEl, setAnchorEl] = React.useState(null);
+  const [setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
 
-  const isMenuOpen = Boolean(anchorEl);
+  // const isMenuOpen = Boolean(anchorEl);
   const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
 
   const handleProfileMenuOpen = (event) => {
     setAnchorEl(event.currentTarget);
+    navigate("/profile")
   };
 
   const handleMobileMenuClose = () => {
     setMobileMoreAnchorEl(null);
   };
 
-  const handleMenuClose = () => {
-    setAnchorEl(null);
-    handleMobileMenuClose();
-  };
+  // const handleMenuClose = () => {
+  //   setAnchorEl(null);
+  //   handleMobileMenuClose();
+  // };
 
   const handleMobileMenuOpen = (event) => {
     setMobileMoreAnchorEl(event.currentTarget);
   };
 
   const menuId = 'primary-search-account-menu';
-  const renderMenu = (
-    <Menu
-      anchorEl={anchorEl}
-      anchorOrigin={{
-        vertical: 'top',
-        horizontal: 'right',
-      }}
-      id={menuId}
-      keepMounted
-      transformOrigin={{
-        vertical: 'top',
-        horizontal: 'right',
-      }}
-      open={isMenuOpen}
-      onClose={handleMenuClose}
-    >
-      <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
-      <MenuItem onClick={handleMenuClose}>My account</MenuItem>
-    </Menu>
-  );
-
   const mobileMenuId = 'primary-search-account-menu-mobile';
   const renderMobileMenu = (
     <Menu
@@ -133,24 +114,16 @@ export const  Navbar=()=>{
       onClose={handleMobileMenuClose}
     >
       <MenuItem>
-        <IconButton size="large" aria-label="show 4 new mails" color="inherit">
-          <Badge badgeContent={4} color="error">
-            <MailIcon />
-          </Badge>
-        </IconButton>
-        <p>Messages</p>
-      </MenuItem>
-      <MenuItem>
         <IconButton
           size="large"
-          aria-label="show 17 new notifications"
+          aria-label=""
           color="inherit"
         >
-          <Badge badgeContent={17} color="error">
-            <NotificationsIcon />
+          <Badge badgeContent={TotalItems ? TotalItems : 0} onClick={() => navigate('/cart')} color="primary">
+            <ShoppingCartIcon />
           </Badge>
         </IconButton>
-        <p>Notifications</p>
+        <p>Cart</p>
       </MenuItem>
       <MenuItem onClick={handleProfileMenuOpen}>
         <IconButton
@@ -169,7 +142,7 @@ export const  Navbar=()=>{
 
   return (
     <Box sx={{ flexGrow: 1 }} >
-      <AppBar position="static" style={{backgroundColor:'black'}}>
+      <AppBar position="static" style={{ backgroundColor: 'black' }}>
         <Toolbar>
           <IconButton
             size="large"
@@ -177,12 +150,12 @@ export const  Navbar=()=>{
             color="inherit"
             aria-label="open drawer"
             sx={{ mr: 2 }}
-            onClick={()=>toggleDrawer(true)}
+            onClick={() => toggleDrawer(true)}
           >
-            <MenuIcon  />
+            <MenuIcon />
           </IconButton>
-          <div style={{height:'50px'}} onClick={()=>navigate('/')}>
-              <img style={{widht:'100%', height:'100%'}} src={logo} alt="" />
+          <div style={{ height: '50px' }} onClick={() => navigate('/')}>
+            <img style={{ widht: '100%', height: '100%' }} src={logo} alt="" />
           </div>
           <Search>
             <SearchIconWrapper>
@@ -200,11 +173,11 @@ export const  Navbar=()=>{
               aria-label=""
               color="inherit"
             >
-              <Badge badgeContent={TotalItems?TotalItems:0} onClick={()=>navigate('/cart')} color="primary">
-                 <ShoppingCartIcon />
+              <Badge badgeContent={TotalItems ? TotalItems : 0} onClick={() => navigate('/cart')} color="primary">
+                <ShoppingCartIcon />
               </Badge>
             </IconButton>
-            <IconButton
+            {user_Status===null?<Button size="small" onClick={()=>navigate('/login')}>Login</Button>:<IconButton
               size="large"
               edge="end"
               aria-label="account of current user"
@@ -214,7 +187,7 @@ export const  Navbar=()=>{
               color="inherit"
             >
               <AccountCircle />
-            </IconButton>
+            </IconButton>}
           </Box>
           <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
             <IconButton
@@ -231,7 +204,6 @@ export const  Navbar=()=>{
         </Toolbar>
       </AppBar>
       {renderMobileMenu}
-      {renderMenu}
     </Box>
   );
 }
