@@ -1,0 +1,1 @@
+export const SIGNUP_LOADING = 'SIGNUP_LOADING';

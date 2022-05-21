@@ -1,0 +1,1186 @@
+{
+  "filter": [
+    {
+      "type": "fashion",
+      "gender": [
+        "Men",
+        "Women",
+        "Kids"
+      ],
+      "max_price": "2500+",
+      "Brand": [],
+      "rating": [
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "type": "Staples",
+      "prod": [
+        "Dal",
+        "Oils",
+        "Atta",
+        "Masala",
+        "Rice",
+        "Dry Fruits",
+        "Sugar",
+        "Salt"
+      ],
+      "Brand": [
+        "Tata"
+      ],
+      "rating": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "organic": [
+        "No",
+        "Organic"
+      ]
+    },
+    {
+      "type": "Snacks",
+      "prod": [
+        "Biscuits",
+        "Chips",
+        "Tea",
+        "Coffee",
+        "Juices",
+        "Health Drink Mix",
+        "Soft Drinks",
+        "Instant Drink Mixes",
+        "Water"
+      ],
+      "Brand": [],
+      "rating": [
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "type": "Packaged Food",
+      "prod": [
+        "Noodles",
+        "Chocolates",
+        "Ketchups",
+        "Breakfast Cereals",
+        "Honey",
+        "Ready to Cook",
+        "Pickels",
+        "Cooking",
+        "Baking"
+      ],
+      "Brand": [],
+      "rating": [
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "type": "Baby Care",
+      "prod": [
+        "Soaps",
+        "Hair Care",
+        "Oral Care",
+        "Oral Care",
+        "Perfumes",
+        "Creams",
+        "Kajal",
+        "Sanitary",
+        "Wellness",
+        "Shaving",
+        "Diapers",
+        "Baby Foods",
+        "Skin Care"
+      ],
+      "Brand": [],
+      "ratings": [
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "type": "Household Care",
+      "prod": [
+        "Detergent",
+        "Utnesil Cleaners",
+        "Floor Cleaner",
+        "Fresheners",
+        "Disposable",
+        "Basic Electricals",
+        "Pooja Needs",
+        "Pet Foot",
+        "Shoe Care"
+      ],
+      "Brand": [],
+      "ratings": [
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "type": "Household Care",
+      "prod": [
+        "Detergent",
+        "Utnesil Cleaners",
+        "Floor Cleaner",
+        "Fresheners",
+        "Disposable",
+        "Basic Electricals",
+        "Pooja Needs",
+        "Pet Foot",
+        "Shoe Care"
+      ],
+      "Brand": [],
+      "ratings": [
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "type": "Dairy",
+      "prod": [
+        "Dairy",
+        "Eggs"
+      ],
+      "Brand": [],
+      "ratings": [
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "type": "Kitchen",
+      "prod": [],
+      "Brand": [],
+      "ratings": [
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "type": "Mobile",
+      "max_price": "50000+",
+      "Brand": [
+        "realme",
+        "POCO",
+        "Infinix",
+        "SAMSUNG",
+        "Mi",
+        "Apple"
+      ],
+      "rating": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "Ram": [
+        "4 GB",
+        "3 GB",
+        "2 GB",
+        "1 GB and Below",
+        "6 GB",
+        "8 GB and Above"
+      ],
+      "Internal_Storage": [
+        "256 GB & Above",
+        "128 GB",
+        "64 GB",
+        "32 GB",
+        "16 GB",
+        "8 GB",
+        "4 GB",
+        "2 GB",
+        "1 GB",
+        "below 1 GB"
+      ],
+      "Battery_Capacity": [
+        [
+          1000,
+          1999
+        ],
+        [
+          2000,
+          2999
+        ],
+        [
+          3000,
+          3999
+        ],
+        [
+          4000,
+          4999
+        ],
+        [
+          5000,
+          5999
+        ],
+        [
+          6000,
+          "Above"
+        ],
+        [
+          "Less",
+          1000
+        ]
+      ],
+      "Screen_Size": [
+        [
+          5.7,
+          5.9
+        ],
+        [
+          5.5,
+          5.6
+        ],
+        [
+          5.2,
+          5.4
+        ],
+        [
+          5,
+          5.1
+        ],
+        [
+          4.5,
+          4.9
+        ],
+        [
+          4,
+          4.4
+        ],
+        [
+          3.5,
+          3.9
+        ],
+        [
+          3,
+          3.4
+        ],
+        [
+          "Less",
+          3
+        ],
+        [
+          6.4,
+          "Above"
+        ],
+        [
+          6,
+          6.3
+        ]
+      ],
+      "Primary_Camera": [
+        [
+          5,
+          7.9
+        ],
+        [
+          "Below",
+          5
+        ],
+        [
+          8,
+          11.9
+        ],
+        [
+          12,
+          15.9
+        ],
+        [
+          16,
+          20.9
+        ],
+        [
+          21,
+          31.9
+        ],
+        [
+          32,
+          47.9
+        ],
+        [
+          48,
+          63.9
+        ],
+        [
+          64,
+          "Above"
+        ]
+      ],
+      "Secondary_Camera": [
+        [
+          5,
+          7.9
+        ],
+        [
+          "Below",
+          5
+        ],
+        [
+          8,
+          11.9
+        ],
+        [
+          12,
+          15.9
+        ],
+        [
+          16,
+          20.9
+        ],
+        [
+          21,
+          "Above"
+        ]
+      ],
+      "Processor_Brand": [
+        "AMD",
+        "Apple",
+        "ARM",
+        "Exynos",
+        "HiSilicon",
+        "Huawei",
+        "Intel",
+        "Mediatek",
+        "RDA",
+        "Snapdragon",
+        "Spredtrum",
+        "Unisoc"
+      ],
+      "Speciality": [
+        "Big Storage",
+        "Higher Performance",
+        "Long-Lasting Battery",
+        "Selfie Camera"
+      ],
+      "Resolution_Type": [
+        "Full_HD",
+        "Full_HDPlus",
+        "Full_HDPlus_AMOLED_Display",
+        "Full_HDPlus_E3_Super_Amoled_Display",
+        "Full_HDPlus_Super_Amoled_Display",
+        "FWVGA"
+      ],
+      "Operating_System": [
+        "Android",
+        "iOS",
+        "KaiOS",
+        "Linux",
+        "Sailfish",
+        "Symbian",
+        "Tizen",
+        "Windows"
+      ],
+      "Network_Type": [
+        "2G",
+        "3G",
+        "4G",
+        "4G_VOLTE",
+        "5G"
+      ],
+      "Sim_Type": [
+        "Dual_Sim",
+        "Dual_Sim(Physical_plus_eSIM)",
+        "Four_Sim",
+        "Single_Sim",
+        "Triple_Sim"
+      ],
+      "Budget": [
+        [
+          "Less",
+          5000
+        ],
+        [
+          5000,
+          9999
+        ],
+        [
+          10000,
+          14999
+        ],
+        [
+          15000,
+          29999
+        ],
+        [
+          30000,
+          "Above"
+        ]
+      ],
+      "Features": [
+        "WiFi",
+        "FM Player",
+        "HD Recording",
+        "Music Player",
+        "NFC",
+        "Bluetooth",
+        "USB",
+        "GPRS"
+      ],
+      "Type": [
+        "Smartphones",
+        "Feature Phones"
+      ],
+      "Number_Of_Cores": [
+        "Dual_Core",
+        "Hexa_Core",
+        "Octa_Core",
+        "Quad_Core",
+        "Single_Core"
+      ],
+      "Operating_System_Version_Name": [
+        "Android Q",
+        "Anna",
+        "Belle",
+        "Donut",
+        "Eclair",
+        "Gingerbread"
+      ],
+      "Clock_Speed": [
+        [
+          1.5,
+          1.9
+        ],
+        [
+          2,
+          2.1
+        ],
+        [
+          2.2,
+          2.4
+        ],
+        [
+          2.5,
+          "Above"
+        ],
+        [
+          "Below",
+          1.5
+        ]
+      ]
+    }
+  ],
+  "mobile": [
+    {
+      "id": 1,
+      "price": "7999",
+      "off": "6",
+      "total_price": 7519,
+      "Model": "C11 2021",
+      "Brand": "realme",
+      "rating": "4.4",
+      "Ram": "2 GB",
+      "Internal_Storage": "32 GB",
+      "Battery_Capacity": "5000",
+      "Screen_Size": "6.5",
+      "Primary_Camera": "8",
+      "Secondary_Camera": "5",
+      "Processor_Brand": "Unisoc",
+      "Speciality": "",
+      "Resolution_Type": "Full_HDPlus",
+      "Operating_System": "Android",
+      "Network_Type": [
+        "4G_VOLTE",
+        "4G",
+        "3G",
+        "2G"
+      ],
+      "Sim_Type": "Dual_Sim",
+      "Features": [],
+      "Type": "Smartphones",
+      "Number_Of_Cores": "Octa_Core",
+      "Operating_System_Version_Name": "Android Q",
+      "Clock_Speed": "1.6 GHz",
+      "Seller_id": "",
+      "Color": "Cool Blue",
+      "image": "https://rukminim2.flixcart.com/image/312/312/kqjtd3k0/mobile/o/4/x/c11-2021-rmx3231-realme-original-imag4j4yrdt7d9cj.jpeg?q=70",
+      "other_images": [
+        "https://rukminim2.flixcart.com/image/416/416/kqjtd3k0/mobile/o/4/x/c11-2021-rmx3231-realme-original-imag4j4yrdt7d9cj.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kqjtd3k0/mobile/k/n/u/c11-2021-rmx3231-realme-original-imag4j4ys8afbd3d.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kqjtd3k0/mobile/u/e/u/c11-2021-rmx3231-realme-original-imag4j4y8dw5zgbf.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kqjtd3k0/mobile/t/z/k/c11-2021-rmx3231-realme-original-imag4j4y69fhffdc.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kqjtd3k0/mobile/d/m/y/c11-2021-rmx3231-realme-original-imag4j4y2vpzefpe.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kqjtd3k0/mobile/4/x/b/c11-2021-rmx3231-realme-original-imag4j4yprbkfdgd.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kqjtd3k0/mobile/r/6/4/c11-2021-rmx3231-realme-original-imag4j4yhhwuwnyz.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kqjtd3k0/mobile/y/6/m/c11-2021-rmx3231-realme-original-imag4j4yhmthmzve.jpeg?q=70"
+      ]
+    },
+    {
+      "id": 2,
+      "price": "12999",
+      "off": "15",
+      "total_price": 11049,
+      "Model": "C25Y",
+      "Brand": "realme",
+      "rating": "4.5",
+      "Ram": "4 GB",
+      "Internal_Storage": "64 GB",
+      "Battery_Capacity": "5000",
+      "Screen_Size": "6.5",
+      "Primary_Camera": "50",
+      "Secondary_Camera": "8",
+      "Processor_Brand": "Unisec",
+      "Speciality": "",
+      "Resolution_Type": "Full_HDPlus",
+      "Operating_System": "Android",
+      "Network_Type": [
+        "4G_VOLTE",
+        "4G",
+        "3G",
+        "2G"
+      ],
+      "Sim_Type": "Dual_Sim",
+      "Budget": "",
+      "Features": [],
+      "Type": "Smartphones",
+      "Number_Of_Cores": "Octa_Core",
+      "Operating_System_Version_Name": "Android Q",
+      "Clock_Speed": "1.8 GHz",
+      "Seller_id": "",
+      "Color": "Glacier Blue",
+      "image": "https://rukminim2.flixcart.com/image/312/312/ktlu9ow0/mobile/0/3/i/c25y-rmx3265-realme-original-imag6wmjnqmfhcwt.jpeg?q=70",
+      "other_images": [
+        "https://rukminim2.flixcart.com/image/416/416/ktlu9ow0/mobile/0/3/i/c25y-rmx3265-realme-original-imag6wmjnqmfhcwt.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ktlu9ow0/mobile/l/s/t/c25y-rmx3265-realme-original-imag6wmjwdctb2we.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ktlu9ow0/mobile/7/n/b/c25y-rmx3265-realme-original-imag6wmjpmchpjgh.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ktlu9ow0/mobile/e/f/z/c25y-rmx3265-realme-original-imag6wmj85fcdzgf.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ktlu9ow0/mobile/c/s/7/c25y-rmx3265-realme-original-imag6wmj3uqh2ryk.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ktlu9ow0/mobile/0/8/1/c25y-rmx3265-realme-original-imag6wmjgd6nxkdh.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ktlu9ow0/mobile/2/r/o/c25y-rmx3265-realme-original-imag6wmjxzbr3erw.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ktlu9ow0/mobile/k/g/p/c25y-rmx3265-realme-original-imag6wmjq24hhsum.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ktlu9ow0/mobile/t/3/e/c25y-rmx3265-realme-original-imag6wmjfypanrrb.jpeg?q=70"
+      ]
+    },
+    {
+      "id": 3,
+      "price": "13999",
+      "off": "14",
+      "total_price": 12039,
+      "Model": "C35",
+      "Brand": "realme",
+      "rating": "4.4",
+      "Ram": "4 GB",
+      "Internal_Storage": "64 GB",
+      "Battery_Capacity": "5000",
+      "Screen_Size": "6.6",
+      "Primary_Camera": "50",
+      "Secondary_Camera": "8",
+      "Processor_Brand": "Unisoc",
+      "Speciality": "",
+      "Resolution_Type": "Full_HDPlus",
+      "Operating_System": "Android",
+      "Network_Type": [
+        "4G_VOLTE",
+        "4G",
+        "3G",
+        "2G"
+      ],
+      "Sim_Type": "Dual_Sim",
+      "Features": [],
+      "Type": "Smartphones",
+      "Number_Of_Cores": "Octa_Core",
+      "Operating_System_Version_Name": "Android Q",
+      "Clock_Speed": "2 GHz",
+      "Seller_id": "",
+      "Color": "Glowing Black",
+      "image": "https://rukminim2.flixcart.com/image/312/312/l0fm07k0/mobile/1/k/g/-original-imagc7ukmgugpdfy.jpeg?q=70",
+      "other_images": [
+        "https://rukminim2.flixcart.com/image/416/416/l0fm07k0/mobile/1/k/g/-original-imagc7ukmgugpdfy.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l0fm07k0/mobile/8/w/z/-original-imagc7ukpz8y4gpb.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l0fm07k0/mobile/p/p/j/-original-imagc7ukyvmgzduq.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l0fm07k0/mobile/d/p/p/-original-imagc7ukdgaqgk5t.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l0fm07k0/mobile/n/d/e/-original-imagc7ukkqhprtwd.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l0fm07k0/mobile/r/p/l/-original-imagc7ukpxsygqjr.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l0fm07k0/mobile/v/6/r/-original-imagc7ukevjfhwse.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l0fm07k0/mobile/q/r/f/-original-imagc7ukvvyqq6ss.jpeg?q=70"
+      ]
+    },
+    {
+      "id": 4,
+      "price": "7999",
+      "off": "5",
+      "total_price": 7599,
+      "Model": "Narzo 50i",
+      "Brand": "realme",
+      "rating": "4.5",
+      "Ram": "2 GB",
+      "Internal_Storage": "32 GB",
+      "Battery_Capacity": "5000",
+      "Screen_Size": "6.5",
+      "Primary_Camera": "8",
+      "Secondary_Camera": "5",
+      "Processor_Brand": "Unisec",
+      "Speciality": "",
+      "Resolution_Type": "Full_HDPlus",
+      "Operating_System": "Android",
+      "Network_Type": [
+        "4G_VOLTE",
+        "4G",
+        "3G",
+        "2G"
+      ],
+      "Sim_Type": "Dual_Sim",
+      "Features": [],
+      "Type": "Smartphones",
+      "Number_Of_Cores": "Octa_Core",
+      "Operating_System_Version_Name": "Android Q",
+      "Clock_Speed": "1.6 GHz",
+      "Seller_id": "",
+      "Color": "Carbon Black",
+      "image": "https://rukminim2.flixcart.com/image/312/312/ktx9si80/mobile/h/b/c/narzo-50i-rmx3231-realme-original-imag75hcyzzggbat.jpeg?q=70",
+      "other_images": [
+        "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/h/b/c/narzo-50i-rmx3231-realme-original-imag75hcyzzggbat.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/i/9/p/narzo-50i-rmx3231-realme-original-imag75hc4h4zfvwe.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/1/y/x/narzo-50i-rmx3231-realme-original-imag75hctrqeh5yq.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/x/l/x/narzo-50i-rmx3231-realme-original-imag75hckv9yzk6c.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/1/a/2/narzo-50i-rmx3231-realme-original-imag75hcq4bwnusf.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/x/y/q/narzo-50i-rmx3231-realme-original-imag75hcxtxqfak3.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/k/1/5/narzo-50i-rmx3231-realme-original-imag75hcacajaeqh.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/e/x/l/narzo-50i-rmx3231-realme-original-imag75hctgpedqnr.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/o/k/t/narzo-50i-rmx3231-realme-original-imag75hcudh8dnfx.jpeg?q=70"
+      ]
+    },
+    {
+      "id": 5,
+      "price": "10999",
+      "off": "15",
+      "total_price": 9349,
+      "Model": "C31",
+      "Brand": "realme",
+      "rating": "4.4",
+      "Ram": "4 GB",
+      "Internal_Storage": "64 GB",
+      "Battery_Capacity": "5000",
+      "Screen_Size": "6.5",
+      "Primary_Camera": "13",
+      "Secondary_Camera": "5",
+      "Processor_Brand": "Unisoc",
+      "Speciality": "",
+      "Resolution_Type": "Full_HD",
+      "Operating_System": "Android",
+      "Network_Type": [
+        "4G",
+        "3G",
+        "2G"
+      ],
+      "Sim_Type": "Dual_Sim",
+      "Features": [],
+      "Type": "Smartphones",
+      "Number_Of_Cores": "Octa_Core",
+      "Operating_System_Version_Name": "Android Q",
+      "Clock_Speed": "1.82 GHz",
+      "Seller_id": "",
+      "Color": "Dark Green",
+      "image": "https://rukminim2.flixcart.com/image/312/312/l1dwknk0/mobile/p/r/0/-original-imagcyj2prahc4pk.jpeg?q=70",
+      "other_images": [
+        "https://rukminim2.flixcart.com/image/416/416/l1dwknk0/mobile/p/r/0/-original-imagcyj2prahc4pk.jpeg?q=70"
+      ]
+    },
+    {
+      "id": 6,
+      "price": "12999",
+      "off": "23",
+      "total_price": 10009,
+      "Model": "Hot 11 2021",
+      "Brand": "Infinix",
+      "rating": "4.3",
+      "Ram": "4 GB",
+      "Internal_Storage": "64 GB",
+      "Battery_Capacity": "5000",
+      "Screen_Size": "6.7",
+      "Primary_Camera": "13",
+      "Secondary_Camera": "8",
+      "Processor_Brand": "Unisoc",
+      "Speciality": "",
+      "Resolution_Type": "Full_HDPlus",
+      "Operating_System": "Android",
+      "Network_Type": [
+        "4G",
+        "3G",
+        "2G"
+      ],
+      "Sim_Type": "Dual_Sim",
+      "Features": [],
+      "Type": "Smartphones",
+      "Number_Of_Cores": "Octa_Core",
+      "Operating_System_Version_Name": "Android Q",
+      "Clock_Speed": "1.82 GHz",
+      "Seller_id": "",
+      "Color": "Aurora Green",
+      "image": "https://rukminim2.flixcart.com/image/312/312/l1ch4sw0/mobile/f/t/n/-original-imagcx87hnxb3v2u.jpeg?q=70",
+      "other_images": [
+        "https://rukminim2.flixcart.com/image/416/416/l1ch4sw0/mobile/f/t/n/-original-imagcx87hnxb3v2u.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l1ch4sw0/mobile/j/w/m/-original-imagcx87wdcfmvqn.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l1zc6fk0/mobile/4/6/v/-original-imagdf7bkbduvr3c.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l1ch4sw0/mobile/2/i/e/-original-imagcx87cxhhacp7.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l1ch4sw0/mobile/t/x/g/-original-imagcx87bcjyspjf.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l1ch4sw0/mobile/c/o/p/-original-imagcx87u8enugqf.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l1ch4sw0/mobile/i/2/o/-original-imagcx87z7ghbfzh.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l1ch4sw0/mobile/x/4/7/-original-imagcx87vcjtu6gp.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l1ch4sw0/mobile/a/n/h/-original-imagcx874vyjbrxd.jpeg?q=70"
+      ]
+    },
+    {
+      "id": 7,
+      "price": "14999",
+      "off": "30",
+      "total_price": 10499,
+      "Model": "Note 11",
+      "Brand": "Infinix",
+      "rating": "4.3",
+      "Ram": "4 GB",
+      "Internal_Storage": "64 GB",
+      "Battery_Capacity": "5000",
+      "Screen_Size": "6.7",
+      "Primary_Camera": "50",
+      "Secondary_Camera": "16",
+      "Processor_Brand": "Mediatek",
+      "Speciality": "",
+      "Resolution_Type": "Full_HDPlus",
+      "Operating_System": "Android",
+      "Network_Type": [
+        "4G",
+        "3G",
+        "2G"
+      ],
+      "Sim_Type": "Dual_Sim",
+      "Features": [],
+      "Type": "Smartphones",
+      "Number_Of_Cores": "Octa_Core",
+      "Operating_System_Version_Name": "Android Q",
+      "Clock_Speed": "2 GHz",
+      "Seller_id": "",
+      "Color": "Glacier Green",
+      "image": "https://rukminim2.flixcart.com/image/312/312/kx25ksw0/mobile/1/c/g/-original-imag9hjsfqgjzfgp.jpeg?q=70",
+      "other_images": [
+        "https://rukminim2.flixcart.com/image/416/416/kx25ksw0/mobile/1/c/g/-original-imag9hjsfqgjzfgp.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ky3b0y80/mobile/e/x/u/-original-imagaeb3f2fxjzpj.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kx25ksw0/mobile/q/p/4/-original-imag9hjscvwkeh9x.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kx25ksw0/mobile/a/p/j/-original-imag9hjscn6auhqt.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kx25ksw0/mobile/t/s/n/-original-imag9hjshuhpyvsn.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kx25ksw0/mobile/7/q/s/-original-imag9hjsbqkmzmzk.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kx25ksw0/mobile/u/f/z/-original-imag9hjsvhwyutfz.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kx25ksw0/mobile/9/u/i/-original-imag9hjshrnmxryx.jpeg?q=70"
+      ]
+    },
+    {
+      "id": 8,
+      "price": "8999",
+      "off": "16",
+      "total_price": 7559,
+      "Model": "Smart 6",
+      "Brand": "Infinix",
+      "rating": "4.5",
+      "Ram": "2 GB",
+      "Internal_Storage": "64 GB",
+      "Battery_Capacity": "5000",
+      "Screen_Size": "6.6",
+      "Primary_Camera": "8",
+      "Secondary_Camera": "5",
+      "Processor_Brand": "Mediatek",
+      "Speciality": "",
+      "Resolution_Type": "Full_HDPlus",
+      "Operating_System": "Android",
+      "Network_Type": [
+        "4G",
+        "3G",
+        "2G"
+      ],
+      "Sim_Type": "Dual_Sim",
+      "Features": [],
+      "Type": "Smartphones",
+      "Number_Of_Cores": "Octa_Core",
+      "Operating_System_Version_Name": "Android Q",
+      "Clock_Speed": "2 GHz",
+      "Seller_id": "",
+      "Color": "Polar Black",
+      "image": "https://rukminim2.flixcart.com/image/312/312/l2f20sw0/mobile/d/l/i/-original-imagdru482pvwhvz.jpeg?q=70",
+      "other_images": [
+        "https://rukminim2.flixcart.com/image/416/416/l2f20sw0/mobile/d/l/i/-original-imagdru482pvwhvz.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l2f20sw0/mobile/b/z/h/-original-imagdru4vcr3qsgg.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l2f20sw0/mobile/l/m/9/-original-imagdru4dva6cqu3.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l2f20sw0/mobile/u/e/n/-original-imagdru4gpvzehmd.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l2f20sw0/mobile/g/b/m/-original-imagdru4dbhhd2ap.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l2f20sw0/mobile/q/t/f/-original-imagdru4yw4umtn7.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l2f20sw0/mobile/o/o/u/-original-imagdru4xkfhppbf.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l2f20sw0/mobile/e/5/a/-original-imagdru4redfcn8k.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l2f20sw0/mobile/c/l/n/-original-imagdru4cv7vvsrp.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l2f20sw0/mobile/l/r/t/-original-imagdru4gjqryfga.jpeg?q=70"
+      ]
+    },
+    {
+      "id": 9,
+      "price": "7999",
+      "off": "10",
+      "total_price": 7199,
+      "Model": "Smart 5A",
+      "Brand": "Infinix",
+      "rating": "4.4",
+      "Ram": "2 GB",
+      "Internal_Storage": "32 GB",
+      "Battery_Capacity": "5000",
+      "Screen_Size": "6.5",
+      "Primary_Camera": "8",
+      "Secondary_Camera": "8",
+      "Processor_Brand": "Mediatek",
+      "Speciality": "",
+      "Resolution_Type": "Full_HDPlus",
+      "Operating_System": "Android",
+      "Network_Type": [
+        "4G",
+        "3G",
+        "2G"
+      ],
+      "Sim_Type": "Dual_Sim",
+      "Features": [],
+      "Type": "Smartphones",
+      "Number_Of_Cores": "Octa_Core",
+      "Operating_System_Version_Name": "Android Q",
+      "Clock_Speed": "1.82 GHz",
+      "Seller_id": "",
+      "Color": "Ocean Wave",
+      "image": "https://rukminim2.flixcart.com/image/312/312/krtjgcw0/mobile/s/8/9/smart-5a-x657c-infinix-original-imag5gnzeygmt9fh.jpeg?q=70",
+      "other_images": [
+        "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/s/8/9/smart-5a-x657c-infinix-original-imag5gnzeygmt9fh.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/h/j/e/smart-5a-x657c-infinix-original-imag5gnzqghtbkjf.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/k/6/g/smart-5a-x657c-infinix-original-imag5gnzuwetytuf.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/x/y/o/smart-5a-x657c-infinix-original-imag5gnzfwfrvfys.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/7/k/y/smart-5a-x657c-infinix-original-imag5gnzp9f5juzu.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/9/b/z/smart-5a-x657c-infinix-original-imag5gnzeypghfna.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/v/b/v/smart-5a-x657c-infinix-original-imag5gnzmpcbeyuw.jpeg?q=70"
+      ]
+    },
+    {
+      "id": 10,
+      "price": "13999",
+      "off": "25",
+      "total_price": 10499,
+      "Model": "Hot 11S",
+      "Brand": "Infinix",
+      "rating": "4.3",
+      "Ram": "4 GB",
+      "Internal_Storage": "64 GB",
+      "Battery_Capacity": "5000",
+      "Screen_Size": "6.7",
+      "Primary_Camera": "50",
+      "Secondary_Camera": "8",
+      "Processor_Brand": "Mediatek",
+      "Speciality": "",
+      "Resolution_Type": "Full_HDPlus",
+      "Operating_System": "Android",
+      "Network_Type": [
+        "4G",
+        "3G",
+        "2G"
+      ],
+      "Sim_Type": "Dual_Sim",
+      "Features": [],
+      "Type": "Smartphones",
+      "Number_Of_Cores": "Octa_Core",
+      "Operating_System_Version_Name": "Android Q",
+      "Clock_Speed": "2 GHz",
+      "Seller_id": "",
+      "Color": "Silver Wave",
+      "image": "https://rukminim2.flixcart.com/image/312/312/kyag87k0/mobile/y/j/o/-original-imagajyzdzjfukft.jpeg?q=70",
+      "other_images": [
+        "https://rukminim2.flixcart.com/image/416/416/kyag87k0/mobile/y/j/o/-original-imagajyzdzjfukft.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kyag87k0/mobile/z/q/k/-original-imagajyzg3vhawrj.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kyag87k0/mobile/b/e/g/-original-imagajyz9c96pgxb.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kyag87k0/mobile/x/g/s/-original-imagajyzgyh3hrxz.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kyag87k0/mobile/w/d/f/-original-imagajyzxgsyufqy.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kyag87k0/mobile/d/l/y/-original-imagajyzkyqs8amz.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kyag87k0/mobile/c/m/n/-original-imagajyzguxkche4.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kyag87k0/mobile/c/m/n/-original-imagajyzguxkche4.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kyag87k0/mobile/r/5/n/-original-imagajyzzgqrwhxs.jpeg?q=70"
+      ]
+    },
+    {
+      "id": 11,
+      "price": "11999",
+      "off": "20",
+      "total_price": 9599,
+      "Model": "C31",
+      "Brand": "POCO",
+      "rating": "4.4",
+      "Ram": "4 GB",
+      "Internal_Storage": "64 GB",
+      "Battery_Capacity": "5000",
+      "Screen_Size": "6.5",
+      "Primary_Camera": "13",
+      "Secondary_Camera": "5",
+      "Processor_Brand": "Mediatek",
+      "Speciality": "",
+      "Resolution_Type": "Full_HDPlus",
+      "Operating_System": "Android",
+      "Network_Type": [
+        "4G",
+        "3G",
+        "2G"
+      ],
+      "Sim_Type": "Dual_Sim",
+      "Features": [],
+      "Type": "Smartphones",
+      "Number_Of_Cores": "Octa_Core",
+      "Operating_System_Version_Name": "Android Q",
+      "Clock_Speed": "2 GHz",
+      "Seller_id": "",
+      "Color": "Royal Blue",
+      "image": "https://rukminim2.flixcart.com/image/312/312/ku4ezrk0/mobile/p/e/4/c31-mzb0a0jin-poco-original-imag7bzqxgdhgf2n.jpeg?q=70",
+      "other_images": [
+        "https://rukminim2.flixcart.com/image/416/416/ku4ezrk0/mobile/p/e/4/c31-mzb0a0jin-poco-original-imag7bzqxgdhgf2n.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kyag87k0/mobile/j/0/n/-original-imagajt3dd32qjg4.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ku4ezrk0/mobile/j/s/e/c31-mzb0a0jin-poco-original-imag7bzqbdhjuvhz.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ku4ezrk0/mobile/i/u/f/c31-mzb0a0jin-poco-original-imag7bzqhb4jxkq9.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ku4ezrk0/mobile/n/p/i/c31-mzb0a0jin-poco-original-imag7bzqnpd37r3u.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ku4ezrk0/mobile/k/i/p/c31-mzb0a0jin-poco-original-imag7bzqp8pvwbaf.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ku4ezrk0/mobile/q/e/1/c31-mzb0a0jin-poco-original-imag7bzquuy7zz9y.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ku4ezrk0/mobile/x/h/b/c31-mzb0a0jin-poco-original-imag7bzqztayjtye.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ku4ezrk0/mobile/z/8/f/c31-mzb0a0jin-poco-original-imag7bzqsxpqmrkg.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ku4ezrk0/mobile/p/h/9/c31-mzb0a0jin-poco-original-imag7bzq3ytmthjf.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/ku4ezrk0/mobile/i/h/x/c31-mzb0a0jin-poco-original-imag7bzqxcfgjvrh.jpeg?q=70"
+      ]
+    },
+    {
+      "id": 12,
+      "price": "15999",
+      "off": "18",
+      "total_price": 13119,
+      "Model": "M4 5G",
+      "Brand": "POCO",
+      "rating": "4.5",
+      "Ram": "4 GB",
+      "Internal_Storage": "64 GB",
+      "Battery_Capacity": "5000",
+      "Screen_Size": "6.5",
+      "Primary_Camera": "50",
+      "Secondary_Camera": "8",
+      "Processor_Brand": "Mediatek",
+      "Speciality": "",
+      "Resolution_Type": "Full_HDPlus",
+      "Operating_System": "Android",
+      "Network_Type": [
+        "4G",
+        "3G",
+        "2G"
+      ],
+      "Sim_Type": "Dual_Sim",
+      "Features": [],
+      "Type": "Smartphones",
+      "Number_Of_Cores": "Octa_Core",
+      "Operating_System_Version_Name": "Android Q",
+      "Clock_Speed": "2.2 GHz",
+      "Seller_id": "",
+      "Color": "Yellow",
+      "image": "https://rukminim2.flixcart.com/image/312/312/l0fm07k0/mobile/a/6/b/-original-imagc7tdwfp2gz4h.jpeg?q=70",
+      "other_images": [
+        "https://rukminim2.flixcart.com/image/416/416/l2jcccw0/mobile/g/l/5/-original-imagdu8j9k3ejjc3.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l2jcccw0/mobile/d/8/f/-original-imagdupmstft6w3y.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l2jcccw0/mobile/k/l/b/-original-imagdu8jncegwbzh.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l2jcccw0/mobile/t/s/7/-original-imagdu8jvgyhyyh4.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l2jcccw0/mobile/9/p/o/-original-imagdu8jrkhurbpg.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l2jcccw0/mobile/z/o/y/-original-imagdu8j5u3cjyb4.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l2jcccw0/mobile/2/g/d/-original-imagdu8jgzmgdwz4.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l2jcccw0/mobile/9/t/u/-original-imagdu8jp4znugwp.jpeg?q=70"
+      ]
+    },
+    {
+      "id": 13,
+      "price": "23999",
+      "off": "16",
+      "total_price": 20159,
+      "Model": "X4 Pro 5G",
+      "Brand": "POCO",
+      "rating": "4",
+      "Ram": "6 GB",
+      "Internal_Storage": "128 GB",
+      "Battery_Capacity": "5000",
+      "Screen_Size": "6.6",
+      "Primary_Camera": "64",
+      "Secondary_Camera": "16",
+      "Processor_Brand": "Snapdragon",
+      "Speciality": "",
+      "Resolution_Type": "Full_HDPlus_Super_Amoled_Display",
+      "Operating_System": "Android",
+      "Network_Type": [
+        "4G",
+        "3G",
+        "2G"
+      ],
+      "Sim_Type": "Dual_Sim",
+      "Features": [],
+      "Type": "Smartphones",
+      "Number_Of_Cores": "Octa_Core",
+      "Operating_System_Version_Name": "Android Q",
+      "Clock_Speed": "2.2 GHz",
+      "Seller_id": "",
+      "Color": "Laser Blue",
+      "image": "https://rukminim2.flixcart.com/image/312/312/l19m93k0/mobile/w/0/6/-original-imagcv2dcyjzcmvd.jpeg?q=70",
+      "other_images": [
+        "https://rukminim2.flixcart.com/image/416/416/l19m93k0/mobile/w/0/6/-original-imagcv2dcyjzcmvd.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l19m93k0/mobile/w/h/9/-original-imagcv2dtxp6ymzu.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l19m93k0/mobile/8/d/o/-original-imagcv2dfsffcwhn.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l19m93k0/mobile/p/o/9/-original-imagcv2dkanyvnjt.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l19m93k0/mobile/b/9/f/-original-imagcv2dusw9d4gb.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l19m93k0/mobile/l/b/c/-original-imagcv2dhvcfsstg.jpeg?q=70"
+      ]
+    },
+    {
+      "id": 14,
+      "price": "17999",
+      "off": "8",
+      "total_price": 16559,
+      "Model": "M3 Pro 5G",
+      "Brand": "POCO",
+      "rating": "4.2",
+      "Ram": "6 GB",
+      "Internal_Storage": "128 GB",
+      "Battery_Capacity": "5000",
+      "Screen_Size": "6.5",
+      "Primary_Camera": "48",
+      "Secondary_Camera": "8",
+      "Processor_Brand": "Mediatek",
+      "Speciality": "",
+      "Resolution_Type": "Full_HDPlus",
+      "Operating_System": "Android",
+      "Network_Type": [
+        "4G",
+        "3G",
+        "2G"
+      ],
+      "Sim_Type": "Dual_Sim",
+      "Features": [],
+      "Type": "Smartphones",
+      "Number_Of_Cores": "Octa_Core",
+      "Operating_System_Version_Name": "Android Q",
+      "Clock_Speed": "2.4 GHz",
+      "Seller_id": "",
+      "Color": "Yellow",
+      "image": "https://rukminim2.flixcart.com/image/312/312/l0igvww0/mobile/6/8/o/-original-imagcafj5zcxz9wg.jpeg?q=70",
+      "other_images": [
+        "https://rukminim2.flixcart.com/image/416/416/l0igvww0/mobile/6/8/o/-original-imagcafj5zcxz9wg.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kzogn0w0/mobile/d/s/g/-original-imagbnymy5bgwyqn.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kzn17680/mobile/b/k/l/-original-imagbhdraqz5ev3g.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kzn17680/mobile/d/a/q/-original-imagbhdrygb6kfpz.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kzn17680/mobile/w/y/f/-original-imagbhdruqhx3mw7.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kzn17680/mobile/u/v/0/-original-imagbhdrrns3bapq.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kzn17680/mobile/4/d/x/-original-imagbhdrtgt4um3t.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l0igvww0/mobile/1/1/s/-original-imagcafjykxgzx2q.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/l0igvww0/mobile/1/e/n/-original-imagcafjqdxvaztw.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kzn17680/mobile/6/u/i/-original-imagbhdr6tsyhrvx.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/kzn17680/mobile/f/e/r/-original-imagbhdrjbzhdsse.jpeg?q=70"
+      ]
+    },
+    {
+      "id": 15,
+      "price": "34999",
+      "off": "17",
+      "total_price": 29049,
+      "Model": "F3 GT",
+      "Brand": "POCO",
+      "rating": "4.3",
+      "Ram": "8 GB",
+      "Internal_Storage": "128 GB",
+      "Battery_Capacity": "5065",
+      "Screen_Size": "6.6",
+      "Primary_Camera": "64",
+      "Secondary_Camera": "16",
+      "Processor_Brand": "Mediatek",
+      "Speciality": "",
+      "Resolution_Type": "Full_HDPlus",
+      "Operating_System": "Android",
+      "Network_Type": [
+        "4G",
+        "3G",
+        "2G"
+      ],
+      "Sim_Type": "Dual_Sim",
+      "Features": [],
+      "Type": "Smartphones",
+      "Number_Of_Cores": "Octa_Core",
+      "Operating_System_Version_Name": "Android Q",
+      "Clock_Speed": "2 GHz",
+      "Seller_id": "",
+      "Color": "Gunmetal Silver",
+      "image": "https://rukminim2.flixcart.com/image/312/312/krf91u80/mobile/6/l/i/f3-gt-mzb09c5in-poco-original-imag57hetqwnqaac.jpeg?q=70",
+      "other_images": [
+        "https://rukminim2.flixcart.com/image/416/416/krf91u80/mobile/6/l/i/f3-gt-mzb09c5in-poco-original-imag57hetqwnqaac.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/krf91u80/mobile/n/h/o/f3-gt-mzb09c5in-poco-original-imag57heekmrgzfg.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/krf91u80/mobile/h/8/u/f3-gt-mzb09c5in-poco-original-imag57hekgvzry25.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/krf91u80/mobile/h/n/e/f3-gt-mzb09c5in-poco-original-imag57hex4hwdq9z.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/krf91u80/mobile/7/5/t/f3-gt-mzb09c5in-poco-original-imag57hevhg2bg9h.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/krf91u80/mobile/4/y/y/f3-gt-mzb09c5in-poco-original-imag57heh68ftu4r.jpeg?q=70"
+      ]
+    }
+  ],
+  "cartList": [
+    {
+      "product": {
+        "id": 4,
+        "price": "7999",
+        "off": "5",
+        "total_price": 7599,
+        "Model": "Narzo 50i",
+        "Brand": "realme",
+        "rating": "4.5",
+        "Ram": "2 GB",
+        "Internal_Storage": "32 GB",
+        "Battery_Capacity": "5000",
+        "Screen_Size": "6.5",
+        "Primary_Camera": "8",
+        "Secondary_Camera": "5",
+        "Processor_Brand": "Unisec",
+        "Speciality": "",
+        "Resolution_Type": "Full_HDPlus",
+        "Operating_System": "Android",
+        "Network_Type": [
+          "4G_VOLTE",
+          "4G",
+          "3G",
+          "2G"
+        ],
+        "Sim_Type": "Dual_Sim",
+        "Features": [],
+        "Type": "Smartphones",
+        "Number_Of_Cores": "Octa_Core",
+        "Operating_System_Version_Name": "Android Q",
+        "Clock_Speed": "1.6 GHz",
+        "Seller_id": "",
+        "Color": "Carbon Black",
+        "image": "https://rukminim2.flixcart.com/image/312/312/ktx9si80/mobile/h/b/c/narzo-50i-rmx3231-realme-original-imag75hcyzzggbat.jpeg?q=70",
+        "other_images": [
+          "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/h/b/c/narzo-50i-rmx3231-realme-original-imag75hcyzzggbat.jpeg?q=70",
+          "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/i/9/p/narzo-50i-rmx3231-realme-original-imag75hc4h4zfvwe.jpeg?q=70",
+          "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/1/y/x/narzo-50i-rmx3231-realme-original-imag75hctrqeh5yq.jpeg?q=70",
+          "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/x/l/x/narzo-50i-rmx3231-realme-original-imag75hckv9yzk6c.jpeg?q=70",
+          "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/1/a/2/narzo-50i-rmx3231-realme-original-imag75hcq4bwnusf.jpeg?q=70",
+          "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/x/y/q/narzo-50i-rmx3231-realme-original-imag75hcxtxqfak3.jpeg?q=70",
+          "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/k/1/5/narzo-50i-rmx3231-realme-original-imag75hcacajaeqh.jpeg?q=70",
+          "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/e/x/l/narzo-50i-rmx3231-realme-original-imag75hctgpedqnr.jpeg?q=70",
+          "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/o/k/t/narzo-50i-rmx3231-realme-original-imag75hcudh8dnfx.jpeg?q=70"
+        ]
+      },
+      "quantity": 1,
+      "id": 1
+    }
+  ]
+}

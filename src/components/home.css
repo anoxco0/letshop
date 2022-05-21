@@ -1,0 +1,104 @@
+.mainproddiv{
+    margin: 20px 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.prodCat{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.1px solid gray;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+}
+.prod-div{
+    border-radius: 0 0 5px 5px;
+    height: 320px;
+    overflow-x: scroll;
+    display: flex;
+    column-gap:5px;
+    margin: 5px;
+}
+.prod-div::-webkit-scrollbar{
+    display: none;
+}
+.grocery_types{
+    width: 250px;
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    align-content: space-between;
+    cursor: pointer;
+}
+
+.top_prod_main{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 8px;
+    overflow-y: hidden;
+}
+.top_prod_main:hover{
+    margin-top: -2px;
+    cursor: pointer;
+}
+.top_prod_rating{
+    position: absolute;
+    display: flex;
+    color: white;
+    margin-left: 145px;
+    background-color: teal;
+    padding: 5px 8px;
+    border-radius: 0px 8px 0px 20px;
+}
+.top_prod_screen{
+    position: absolute;
+    display: flex;
+    color: white;
+    margin-left: -110px;
+    background-color: teal;
+    padding: 5px 8px;
+    border-radius: 8px 0px 20px 0px;
+}
+.top_prod_desc{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.top_prod_desc>div{
+    padding: 5px;
+    border-radius: 0 0 8px 8px;
+    background-color: teal;
+}
+.Top_prod_descr{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+    margin-top: 100px;
+    overflow-y: hidden;
+}
+.Top_prod_descr:hover{
+    margin-top: 0;
+}
+.Top_prod_descr>div{
+    background-color: teal;
+    padding: 5px;
+}

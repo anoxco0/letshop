@@ -1,0 +1,55 @@
+.soloProductDetail{
+    height: 82vh;
+    width: 96%;
+    margin: auto;
+    margin-top: 80px;
+    padding: 1%;
+    background-color: white;
+    display: flex;
+}
+.leftimages{
+    border: 1px solid rgba(128, 128, 128, 0.449);
+    width: 40%;
+    display: flex;
+}
+.leftLeftimage{
+    height: 82vh;
+   overflow-y: scroll;
+}
+.leftLeftimage::-webkit-scrollbar{
+    width: 4px;
+}
+.leftLeftimage::-webkit-scrollbar-thumb{
+    background-color: rgba(128, 128, 128, 0.438);
+    border-radius: 2px;
+}
+.leftimage{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.308);
+    border-right: 1px solid rgba(128, 128, 128, 0.308);
+    overflow: hidden;
+    padding: 5px;
+    cursor: pointer;
+}
+.leftimage:hover{
+    border: 1px solid blue;
+}
+.leftimage img{
+    height: 100px;
+}
+.rightimage{
+    width: calc(100% - 120px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightDiv{
+    width: 50%;
+    padding:0 40px;
+    overflow-y: scroll;
+}
+.rightDiv::-webkit-scrollbar{
+    display: none;
+}

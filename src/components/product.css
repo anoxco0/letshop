@@ -1,0 +1,170 @@
+#products{
+    margin: 80px 10px 10px 10px;
+    display: flex;
+    column-gap: 7px;
+}
+#filter{
+    background-color: white;
+   width: 300px;
+   height: 88vh;
+   cursor: pointer;
+}
+.filterScroll{
+    height: 82vh;
+    overflow-y: scroll;
+}
+.filterScroll>div:nth-child(1){
+    cursor: pointer;
+}
+.filterScroll::-webkit-scrollbar{
+    width: 5px;
+}
+.filterScroll::-webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 5px;
+}
+.filterHead{
+    /* padding: 10px; */
+    font-size: 15px;
+    font-weight: 600;
+}
+.filter{
+    padding: 0px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.filterBot{
+    display: flex;
+}
+.botBord{
+    border-bottom: 1px solid gray;
+}
+.divtrans{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.rightProduct{
+    height: 88vh;
+    background-color: white;
+    width: 100%;
+}
+.prod_main{
+    height: 84.5%;
+    overflow-y: scroll;
+}
+.prod_main::-webkit-scrollbar{
+    display: none;
+}
+.AllProduct_main{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: auto;
+    gap: 10px;
+}
+.AllProduct_{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 8px 8px 0 0;
+}
+.AllProduct_:hover{
+    margin-top: -2px;
+    cursor: pointer;
+}
+.AllProduct{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+}
+.AllProduct img{
+    padding: 5px;
+}
+.all_prod_screen{
+    display: flex;
+    background-color: teal;
+    padding: 5px 10px;
+    border-radius: 8px 0 20px 0;
+}
+.all_prod_rating{
+    padding: 5px 10px;
+    background-color: teal;
+    display: flex;
+    border-radius: 0 8px 0 20px;
+}
+.prod_descr{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: 95px;
+    overflow-y: hidden;
+    border-radius: 8px 8px 0 0;
+}
+.prod_descr:hover{
+    margin-top: -0px;
+}
+.prod_descr>div{
+    background-color: teal;
+    padding: 5px 10px;
+    border-radius: 8px 8px 0 0;
+}
+@media only screen and (max-width:1580px){
+    .AllProduct_main{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+@media only screen and (max-width:1348px){
+    .AllProduct_main{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media only screen and (max-width:1025px){
+    .AllProduct_main{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width:799px){
+    .AllProduct_main{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .AllProduct_{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border: 1px solid gray;
+        border-radius: 8px 8px 0 0;
+    }
+}
+@media only screen and (max-width:500px){
+    #filter{
+       display: none;
+       position: fixed;
+       width: 100%;
+       background-color: white;
+       z-index: 2;
+       top: 100;
+       left: 0;
+       right: 0;
+       bottom: 40px;
+       height: 82vh;
+       overflow-y: scroll;
+       padding: 10px;
+    }
+    .filterScroll{
+        height: 82vh;
+        width: 100%;
+        overflow-y: scroll;
+    }
+    .filterText{
+        display: none;
+    }
+}
