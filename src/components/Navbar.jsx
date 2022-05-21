@@ -71,14 +71,14 @@ export const Navbar = () => {
   const toggleDrawer = (Boolean) => {
     dispatch(drawer(Boolean))
   }
-  const [setAnchorEl] = React.useState(null);
+  // const [setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
 
   // const isMenuOpen = Boolean(anchorEl);
   const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
 
   const handleProfileMenuOpen = (event) => {
-    setAnchorEl(event.currentTarget);
+    // setAnchorEl(event.currentTarget);
     navigate("/profile")
   };
 
