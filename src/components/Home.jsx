@@ -19,44 +19,45 @@ import FullscreenIcon from '@mui/icons-material/Fullscreen';
 
 export const Home = ()=>{
   const {loading} = useSelector(store=>store.home);
-  const Grocery_items = [
-    {img:'https://rukminim2.flixcart.com/flap/128/128/image/50474c.jpg',
-    type:"Staples"
-  },
-  {
-    img:"https://rukminim2.flixcart.com/flap/128/128/image/9fbd36.jpg",
-    type:"Snacks"
-  },
-  {
-    img:"https://rukminim2.flixcart.com/flap/128/128/image/ac8550.jpg",
-    type:"Packaged_food"
-  },
-  {
-    img:"https://rukminim2.flixcart.com/flap/128/128/image/7670e2.jpg",
-    type:"Baby_Care"
-  },
-  {
-    img:"https://rukminim2.flixcart.com/flap/128/128/image/b7ade9.jpg",
-    type:"Household_Care"
-  },
-  {
-    img:"https://rukminim2.flixcart.com/flap/128/128/image/8014b1.jpg",
-    type:"Dairy"
-  },
-  {
-    img:"https://rukminim2.flixcart.com/flap/128/128/image/e6e0ecc56771471a.png",
-    type:"Kitchen"
-  }
-  ]
+  // const Grocery_items = [
+  //   {img:'https://rukminim2.flixcart.com/flap/128/128/image/50474c.jpg',
+  //   type:"Staples"
+  // },
+  // {
+  //   img:"https://rukminim2.flixcart.com/flap/128/128/image/9fbd36.jpg",
+  //   type:"Snacks"
+  // },
+  // {
+  //   img:"https://rukminim2.flixcart.com/flap/128/128/image/ac8550.jpg",
+  //   type:"Packaged_food"
+  // },
+  // {
+  //   img:"https://rukminim2.flixcart.com/flap/128/128/image/7670e2.jpg",
+  //   type:"Baby_Care"
+  // },
+  // {
+  //   img:"https://rukminim2.flixcart.com/flap/128/128/image/b7ade9.jpg",
+  //   type:"Household_Care"
+  // },
+  // {
+  //   img:"https://rukminim2.flixcart.com/flap/128/128/image/8014b1.jpg",
+  //   type:"Dairy"
+  // },
+  // {
+  //   img:"https://rukminim2.flixcart.com/flap/128/128/image/e6e0ecc56771471a.png",
+  //   type:"Kitchen"
+  // }
+  // ]
   const dispatch = useDispatch();
   const navigate = useNavigate();
+  const {TopMobilesData, drawerStatus} = useSelector(store=>store.home);
   React.useEffect(()=>{
     dispatch(getTopMobilesData());
   },[])
-const {TopMobilesData, drawerStatus} = useSelector(store=>store.home);
   const toggleDrawer=(status)=>{
      dispatch(drawer(status));
   }
+  console.log(TopMobilesData)
   const listItem = [
     {text:'All Categories', icon:GridViewIcon}
   ]

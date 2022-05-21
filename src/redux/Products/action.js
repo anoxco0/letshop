@@ -137,7 +137,8 @@ export const get_filter = (product) => (dispatch) => {
 }
 
 export const get_All_Product = (product_name,pro, sort)=>(dispatch)=>{
-        axios.get(`http://localhost:8000/${product_name}?${pro}&_sort=total_price&_order=${sort}`).then(res=>dispatch(getAllProduct(res.data))).catch(error=>console.log(error))
+        axios.get(`https://letshop-server.herokuapp.com/product`).then(res=>dispatch(getAllProduct(res.data)))
+        .catch(error=>console.log(error))
 }
 
 export const get_Product_details=(model_name)=>(dispatch) =>{
