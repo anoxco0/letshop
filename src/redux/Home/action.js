@@ -17,5 +17,5 @@ export const topMobileData = (payload) =>({
 
 export const getTopMobilesData = ()=>(dispatch)=>{
     dispatch(loading());
-    axios.get("http://localhost:8000/mobile?_sort=rating&_order=desc&_limit=8").then(res=>dispatch(topMobileData(res.data))).catch(error=>console.log(error))
+    axios.get("https://letshop-server.herokuapp.com/product?sort=rating&order=-1&limit=8").then(res=>dispatch(topMobileData(res.data))).catch(error=>console.log(error))
 }

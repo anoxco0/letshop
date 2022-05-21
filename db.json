@@ -1135,25 +1135,24 @@
   "cartList": [
     {
       "product": {
-        "id": 4,
+        "id": 9,
         "price": "7999",
-        "off": "5",
-        "total_price": 7599,
-        "Model": "Narzo 50i",
-        "Brand": "realme",
-        "rating": "4.5",
+        "off": "10",
+        "total_price": 7199,
+        "Model": "Smart 5A",
+        "Brand": "Infinix",
+        "rating": "4.4",
         "Ram": "2 GB",
         "Internal_Storage": "32 GB",
         "Battery_Capacity": "5000",
         "Screen_Size": "6.5",
         "Primary_Camera": "8",
-        "Secondary_Camera": "5",
-        "Processor_Brand": "Unisec",
+        "Secondary_Camera": "8",
+        "Processor_Brand": "Mediatek",
         "Speciality": "",
         "Resolution_Type": "Full_HDPlus",
         "Operating_System": "Android",
         "Network_Type": [
-          "4G_VOLTE",
           "4G",
           "3G",
           "2G"
@@ -1163,24 +1162,22 @@
         "Type": "Smartphones",
         "Number_Of_Cores": "Octa_Core",
         "Operating_System_Version_Name": "Android Q",
-        "Clock_Speed": "1.6 GHz",
+        "Clock_Speed": "1.82 GHz",
         "Seller_id": "",
-        "Color": "Carbon Black",
-        "image": "https://rukminim2.flixcart.com/image/312/312/ktx9si80/mobile/h/b/c/narzo-50i-rmx3231-realme-original-imag75hcyzzggbat.jpeg?q=70",
+        "Color": "Ocean Wave",
+        "image": "https://rukminim2.flixcart.com/image/312/312/krtjgcw0/mobile/s/8/9/smart-5a-x657c-infinix-original-imag5gnzeygmt9fh.jpeg?q=70",
         "other_images": [
-          "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/h/b/c/narzo-50i-rmx3231-realme-original-imag75hcyzzggbat.jpeg?q=70",
-          "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/i/9/p/narzo-50i-rmx3231-realme-original-imag75hc4h4zfvwe.jpeg?q=70",
-          "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/1/y/x/narzo-50i-rmx3231-realme-original-imag75hctrqeh5yq.jpeg?q=70",
-          "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/x/l/x/narzo-50i-rmx3231-realme-original-imag75hckv9yzk6c.jpeg?q=70",
-          "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/1/a/2/narzo-50i-rmx3231-realme-original-imag75hcq4bwnusf.jpeg?q=70",
-          "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/x/y/q/narzo-50i-rmx3231-realme-original-imag75hcxtxqfak3.jpeg?q=70",
-          "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/k/1/5/narzo-50i-rmx3231-realme-original-imag75hcacajaeqh.jpeg?q=70",
-          "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/e/x/l/narzo-50i-rmx3231-realme-original-imag75hctgpedqnr.jpeg?q=70",
-          "https://rukminim2.flixcart.com/image/416/416/ktx9si80/mobile/o/k/t/narzo-50i-rmx3231-realme-original-imag75hcudh8dnfx.jpeg?q=70"
+          "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/s/8/9/smart-5a-x657c-infinix-original-imag5gnzeygmt9fh.jpeg?q=70",
+          "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/h/j/e/smart-5a-x657c-infinix-original-imag5gnzqghtbkjf.jpeg?q=70",
+          "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/k/6/g/smart-5a-x657c-infinix-original-imag5gnzuwetytuf.jpeg?q=70",
+          "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/x/y/o/smart-5a-x657c-infinix-original-imag5gnzfwfrvfys.jpeg?q=70",
+          "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/7/k/y/smart-5a-x657c-infinix-original-imag5gnzp9f5juzu.jpeg?q=70",
+          "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/9/b/z/smart-5a-x657c-infinix-original-imag5gnzeypghfna.jpeg?q=70",
+          "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/v/b/v/smart-5a-x657c-infinix-original-imag5gnzmpcbeyuw.jpeg?q=70"
         ]
       },
       "quantity": 1,
-      "id": 1
+      "id": 2
     }
   ]
 }
