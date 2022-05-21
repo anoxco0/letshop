@@ -7,7 +7,7 @@ import { Checkout } from "./Checkout"
 import { Home } from "./Home"
 import { ProductDes } from "./ProducDes"
 import { Product } from "./Product"
-// import {Profile} from "./Profile"
+import {Profile} from "./Profile"
 
 export const Router = ()=>{
     
@@ -21,7 +21,7 @@ export const Router = ()=>{
           <Route path="/checkout" element={<Checkout/>}/>
           <Route path="/login" element={<Login/>} />
           <Route path="/register" element={<Signup/>}/>
-          {/* <Route path="/profile" element={<Profile/>} /> */}
+          <Route path="/profile" element={<Profile/>} />
       </Routes>
        
     </>
