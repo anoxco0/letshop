@@ -26,6 +26,7 @@ export const Cart = () => {
     const dispatch = useDispatch();
    const {TotalItems,TotalPrice, TotalDiscount} = useSelector(store=>store.cart_red);
     const {CartItems} = useSelector(store=>store.cart_red);
+    const user_Status = localStorage.getItem("user_status")
   React.useEffect(()=>{
     dispatch(get_cart());
   },[])
@@ -120,7 +121,7 @@ export const Cart = () => {
                         </div>
                     </div>)}
                     <div style={{ padding: "20px", display: "flex", justifyContent: 'end' }}>
-                        <Button variant="contained" color="success"  onClick={()=>navigate('/checkout')}>
+                        <Button variant="contained" color="success"  onClick={()=>{user_Status!==null?navigate('/checkout'):navigate("/login")}}>
                             <ShoppingCartCheckoutIcon /> Place {TotalItems} items
                         </Button>
                     </div>
