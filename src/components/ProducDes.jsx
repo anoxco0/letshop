@@ -31,8 +31,7 @@ export const ProductDes = () => {
     dispatch(get_cart());
   },[])
   React.useEffect(() => {
-    const query = model_name.split('-')
-    dispatch(get_Product_details(`${query[0]}?Brand=${query[1]}&Model=${query[2]}`));
+    dispatch(get_Product_details(model_name));
   }, []);
   const { drawerStatus } = useSelector(store => store.home);
   const { oneProduct, ProductQuantity } = useSelector(store => store.products_red);

@@ -361,8 +361,8 @@ export const Product = ()=>{
               </div>
               <div className="prod_main">
                 <div className="AllProduct_main">
-                    {AllProduct.map((el)=><div key={el.model} className="AllProduct_">
-                      <div className="AllProduct" onClick={()=>jumpOnProductDetail(el)}>
+                    {AllProduct.map((el)=><div key={el._id} className="AllProduct_">
+                      <div className="AllProduct" onClick={()=>navigate(`/product/${el._id}`)}>
                         <div style={{width:"100%",display:"flex", justifyContent:"space-between", position:"absolute"}}>
                           <div className="all_prod_screen"><FullscreenIcon /><div>{el.Screen_Size} inch</div></div>
                           <div className="all_prod_rating"><div>{el.rating}</div><StarIcon fontSize="small"/></div>
