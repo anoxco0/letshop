@@ -1,6 +1,5 @@
 {
-  "filter": [
-    {
+  "filter": [{
       "type": "fashion",
       "gender": [
         "Men",
@@ -17,163 +16,152 @@
       ]
     },
     {
-      "type": "Staples",
-      "prod": [
-        "Dal",
-        "Oils",
-        "Atta",
-        "Masala",
-        "Rice",
-        "Dry Fruits",
-        "Sugar",
-        "Salt"
+      "type": "grocery",
+      "types": [{
+          "type": "Staples",
+          "prod": [
+            "Dal",
+            "Oils",
+            "Atta",
+            "Masala",
+            "Rice",
+            "Dry Fruits",
+            "Sugar",
+            "Salt"
+          ],
+          "Brand": [
+            "Tata"
+          ],
+          "rating": [
+            4,
+            3,
+            2,
+            1
+          ],
+          "organic": [
+            "No",
+            "Organic"
+          ]
+        },
+        {
+          "type": "Snacks",
+          "prod": [
+            "Biscuits",
+            "Chips",
+            "Tea",
+            "Coffee",
+            "Juices",
+            "Health Drink Mix",
+            "Soft Drinks",
+            "Instant Drink Mixes",
+            "Water"
+          ],
+          "Brand": [],
+          "rating": [
+            4,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "type": "Packaged Food",
+          "prod": [
+            "Noodles",
+            "Chocolates",
+            "Ketchups",
+            "Breakfast Cereals",
+            "Honey",
+            "Ready to Cook",
+            "Pickels",
+            "Cooking",
+            "Baking"
+          ],
+          "Brand": [],
+          "rating": [
+            4,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "type": "Baby Care",
+          "prod": [
+            "Soaps",
+            "Hair Care",
+            "Oral Care",
+            "Oral Care",
+            "Perfumes",
+            "Creams",
+            "Kajal",
+            "Sanitary",
+            "Wellness",
+            "Shaving",
+            "Diapers",
+            "Baby Foods",
+            "Skin Care"
+          ],
+          "Brand": [],
+          "ratings": [
+            4,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "type": "Household Care",
+          "prod": [
+            "Detergent",
+            "Utnesil Cleaners",
+            "Floor Cleaner",
+            "Fresheners",
+            "Disposable",
+            "Basic Electricals",
+            "Pooja Needs",
+            "Pet Foot",
+            "Shoe Care"
+          ],
+          "Brand": [],
+          "ratings": [
+            4,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "type": "Dairy",
+          "prod": [
+            "Dairy",
+            "Eggs"
+          ],
+          "Brand": [],
+          "ratings": [
+            4,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "type": "Kitchen",
+          "prod": [],
+          "Brand": [],
+          "ratings": [
+            4,
+            3,
+            2,
+            1
+          ]
+        }
       ],
-      "Brand": [
-        "Tata"
-      ],
-      "rating": [
-        4,
-        3,
-        2,
-        1
-      ],
-      "organic": [
-        "No",
-        "Organic"
-      ]
-    },
-    {
-      "type": "Snacks",
-      "prod": [
-        "Biscuits",
-        "Chips",
-        "Tea",
-        "Coffee",
-        "Juices",
-        "Health Drink Mix",
-        "Soft Drinks",
-        "Instant Drink Mixes",
-        "Water"
-      ],
-      "Brand": [],
-      "rating": [
-        4,
-        3,
-        2,
-        1
-      ]
-    },
-    {
-      "type": "Packaged Food",
-      "prod": [
-        "Noodles",
-        "Chocolates",
-        "Ketchups",
-        "Breakfast Cereals",
-        "Honey",
-        "Ready to Cook",
-        "Pickels",
-        "Cooking",
-        "Baking"
-      ],
-      "Brand": [],
-      "rating": [
-        4,
-        3,
-        2,
-        1
-      ]
-    },
-    {
-      "type": "Baby Care",
-      "prod": [
-        "Soaps",
-        "Hair Care",
-        "Oral Care",
-        "Oral Care",
-        "Perfumes",
-        "Creams",
-        "Kajal",
-        "Sanitary",
-        "Wellness",
-        "Shaving",
-        "Diapers",
-        "Baby Foods",
-        "Skin Care"
-      ],
-      "Brand": [],
-      "ratings": [
-        4,
-        3,
-        2,
-        1
-      ]
-    },
-    {
-      "type": "Household Care",
-      "prod": [
-        "Detergent",
-        "Utnesil Cleaners",
-        "Floor Cleaner",
-        "Fresheners",
-        "Disposable",
-        "Basic Electricals",
-        "Pooja Needs",
-        "Pet Foot",
-        "Shoe Care"
-      ],
-      "Brand": [],
-      "ratings": [
-        4,
-        3,
-        2,
-        1
-      ]
-    },
-    {
-      "type": "Household Care",
-      "prod": [
-        "Detergent",
-        "Utnesil Cleaners",
-        "Floor Cleaner",
-        "Fresheners",
-        "Disposable",
-        "Basic Electricals",
-        "Pooja Needs",
-        "Pet Foot",
-        "Shoe Care"
-      ],
-      "Brand": [],
-      "ratings": [
-        4,
-        3,
-        2,
-        1
-      ]
-    },
-    {
-      "type": "Dairy",
-      "prod": [
-        "Dairy",
-        "Eggs"
-      ],
-      "Brand": [],
-      "ratings": [
-        4,
-        3,
-        2,
-        1
-      ]
-    },
-    {
-      "type": "Kitchen",
+      "max_price": "50000+",
       "prod": [],
       "Brand": [],
-      "ratings": [
-        4,
-        3,
-        2,
-        1
+      "rating": [
+        4, 3, 2, 1
       ]
     },
     {
@@ -480,8 +468,7 @@
       ]
     }
   ],
-  "mobile": [
-    {
+  "mobile": [{
       "id": 1,
       "price": "7999",
       "off": "6",
@@ -1132,52 +1119,50 @@
       ]
     }
   ],
-  "cartList": [
-    {
-      "product": {
-        "id": 9,
-        "price": "7999",
-        "off": "10",
-        "total_price": 7199,
-        "Model": "Smart 5A",
-        "Brand": "Infinix",
-        "rating": "4.4",
-        "Ram": "2 GB",
-        "Internal_Storage": "32 GB",
-        "Battery_Capacity": "5000",
-        "Screen_Size": "6.5",
-        "Primary_Camera": "8",
-        "Secondary_Camera": "8",
-        "Processor_Brand": "Mediatek",
-        "Speciality": "",
-        "Resolution_Type": "Full_HDPlus",
-        "Operating_System": "Android",
-        "Network_Type": [
-          "4G",
-          "3G",
-          "2G"
-        ],
-        "Sim_Type": "Dual_Sim",
-        "Features": [],
-        "Type": "Smartphones",
-        "Number_Of_Cores": "Octa_Core",
-        "Operating_System_Version_Name": "Android Q",
-        "Clock_Speed": "1.82 GHz",
-        "Seller_id": "",
-        "Color": "Ocean Wave",
-        "image": "https://rukminim2.flixcart.com/image/312/312/krtjgcw0/mobile/s/8/9/smart-5a-x657c-infinix-original-imag5gnzeygmt9fh.jpeg?q=70",
-        "other_images": [
-          "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/s/8/9/smart-5a-x657c-infinix-original-imag5gnzeygmt9fh.jpeg?q=70",
-          "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/h/j/e/smart-5a-x657c-infinix-original-imag5gnzqghtbkjf.jpeg?q=70",
-          "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/k/6/g/smart-5a-x657c-infinix-original-imag5gnzuwetytuf.jpeg?q=70",
-          "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/x/y/o/smart-5a-x657c-infinix-original-imag5gnzfwfrvfys.jpeg?q=70",
-          "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/7/k/y/smart-5a-x657c-infinix-original-imag5gnzp9f5juzu.jpeg?q=70",
-          "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/9/b/z/smart-5a-x657c-infinix-original-imag5gnzeypghfna.jpeg?q=70",
-          "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/v/b/v/smart-5a-x657c-infinix-original-imag5gnzmpcbeyuw.jpeg?q=70"
-        ]
-      },
-      "quantity": 1,
-      "id": 2
-    }
-  ]
+  "cartList": [{
+    "product": {
+      "id": 9,
+      "price": "7999",
+      "off": "10",
+      "total_price": 7199,
+      "Model": "Smart 5A",
+      "Brand": "Infinix",
+      "rating": "4.4",
+      "Ram": "2 GB",
+      "Internal_Storage": "32 GB",
+      "Battery_Capacity": "5000",
+      "Screen_Size": "6.5",
+      "Primary_Camera": "8",
+      "Secondary_Camera": "8",
+      "Processor_Brand": "Mediatek",
+      "Speciality": "",
+      "Resolution_Type": "Full_HDPlus",
+      "Operating_System": "Android",
+      "Network_Type": [
+        "4G",
+        "3G",
+        "2G"
+      ],
+      "Sim_Type": "Dual_Sim",
+      "Features": [],
+      "Type": "Smartphones",
+      "Number_Of_Cores": "Octa_Core",
+      "Operating_System_Version_Name": "Android Q",
+      "Clock_Speed": "1.82 GHz",
+      "Seller_id": "",
+      "Color": "Ocean Wave",
+      "image": "https://rukminim2.flixcart.com/image/312/312/krtjgcw0/mobile/s/8/9/smart-5a-x657c-infinix-original-imag5gnzeygmt9fh.jpeg?q=70",
+      "other_images": [
+        "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/s/8/9/smart-5a-x657c-infinix-original-imag5gnzeygmt9fh.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/h/j/e/smart-5a-x657c-infinix-original-imag5gnzqghtbkjf.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/k/6/g/smart-5a-x657c-infinix-original-imag5gnzuwetytuf.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/x/y/o/smart-5a-x657c-infinix-original-imag5gnzfwfrvfys.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/7/k/y/smart-5a-x657c-infinix-original-imag5gnzp9f5juzu.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/9/b/z/smart-5a-x657c-infinix-original-imag5gnzeypghfna.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/416/416/krtjgcw0/mobile/v/b/v/smart-5a-x657c-infinix-original-imag5gnzmpcbeyuw.jpeg?q=70"
+      ]
+    },
+    "quantity": 1,
+    "id": 2
+  }]
 }

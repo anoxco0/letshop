@@ -133,7 +133,7 @@ export const productsQuantity = (payload) =>({
 })
 
 export const get_filter = (product) => (dispatch) => {
-    axios.get(`http://localhost:8000/filter?q=${product}`).then(res=>dispatch(getFilter(res.data[0]))).catch(error=>console.log(error));
+    axios.get(`https://letshop-server.herokuapp.com/filter?type=${product}`).then(res=>dispatch(getFilter(res.data[0]))).catch(error=>console.log(error));
 }
 
 export const get_All_Product = (product_name,pro, sort)=>(dispatch)=>{
