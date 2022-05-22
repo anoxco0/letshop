@@ -106,15 +106,15 @@ export const Cart = () => {
                             </div>
                             <div style={{ borderBottom: "1px solid gray" }}>
                                 <div style={{ display: "flex", gap: "15px" }}>
-                                    <IconButton aria-label="delete" size="small" onClick={() => editElement(el.id, el.quantity+1)}>
+                                    <IconButton aria-label="delete" size="small" onClick={() => editElement(el._id, el.quantity+1)}>
                                         <AddIcon  fontSize="small" />
                                     </IconButton>
-                                    <div><input style={{ padding: "5px 10px", width: "15px", outline: "none" }}  onChange={(e)=>{editElement(el.id, +e.target.value); e.target.value=""}} type="text" placeholder={el.quantity} name="" id="" /></div>
-                                    <IconButton aria-label="delete" size="small" onClick={() => {el.quantity===1?removeElement(el.id):editElement(el.id, el.quantity-1)}}>
+                                    <div><input style={{ padding: "5px 10px", width: "15px", outline: "none" }}  onChange={(e)=>{editElement(el._id, +e.target.value); e.target.value=""}} type="text" placeholder={el.quantity} name="" id="" /></div>
+                                    <IconButton aria-label="delete" size="small" onClick={() => {el.quantity===1?removeElement(el._id):editElement(el._id, el.quantity-1)}}>
                                         <RemoveIcon  fontSize="small" />
                                     </IconButton>
                                 </div>
-                                <Button variant="outlined" onClick={() => removeElement(el.id)} startIcon={<DeleteIcon />}>
+                                <Button variant="outlined" onClick={() => removeElement(el._id)} startIcon={<DeleteIcon />}>
                                     Remove
                                 </Button>
                             </div>

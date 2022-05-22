@@ -82,7 +82,7 @@ export const get_cart = () => (dispatch) => {
     let total_item = 0;
     let total_price = 0;
     let total_discount=0;
-    axios.get('http://localhost:8000/cartList')
+    axios.get('http://localhost:5000/cart')
         .then(res => {
             res.data.map((el) =>{ total_item += el.quantity; total_price+=+el.product.price*+el.quantity;total_discount+=(+el.product.price-+el.product.total_price)*el.quantity});
             dispatch(totalCartItem(total_item));
@@ -93,23 +93,24 @@ export const get_cart = () => (dispatch) => {
         .catch(error => console.log(error));
 }
 export const post_cart = (product) => (dispatch) => {
+    console.log(product)
     dispatch(postCartloading());
-    axios.post(`http://localhost:8000/cartList`, {
-        product,
+    axios.post(`http://localhost:5000/cart`, {
+        product:product,
         quantity: 1
-    }).then(res => dispatch(postCartSuccess())).catch(error => dispatch(postCartFailure()))
+    }).then(res =>{console.log(res.data); dispatch(postCartSuccess())}).catch(error => dispatch(postCartFailure()))
 }
 
 export const patch_cart = (id, value) => (dispatch) => {
     dispatch(patchCartloading());
-    axios.patch(`http://localhost:8000/cartList/${id}`, {
+    axios.patch(`http://localhost:5000/cart/${id}`, {
         quantity: value
     }).then(res => dispatch(postCartSuccess())).catch(error => dispatch(patchCartFailure()))
 }
 
 export const delete_cart = (id) => (dispatch) => {
     dispatch(deleteCartloading());
-    axios.delete(`http://localhost:8000/cartList/${id}`).then(res => dispatch(deleteCartSuccess())).catch(error => dispatch(deleteCartFailure()))
+    axios.delete(`http://localhost:5000/cart/${id}`).then(res => dispatch(deleteCartSuccess())).catch(error => dispatch(deleteCartFailure()))
 }
 
 

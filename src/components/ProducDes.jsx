@@ -38,10 +38,10 @@ export const ProductDes = () => {
   const addToCart = (oneProduct)=>{
     let flag = false;
     CartItems.map(el=>{
-      if(oneProduct.id===el.product.id) 
-      {flag = true; dispatch(patch_cart(el.id, el.quantity+1))}
+      if(oneProduct._id===el.product._id) 
+      {flag = true; dispatch(patch_cart(el._id, el.quantity+1))}
     })
-    if(flag === false)dispatch(post_cart(oneProduct));
+    if(flag === false) dispatch(post_cart(oneProduct));
     dispatch(get_cart());
     navigate('/cart')
   }
