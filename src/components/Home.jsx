@@ -118,7 +118,7 @@ export const Home = ()=>{
              <div onClick={()=>navigate(`/products/${'mobile'}`)}>View All</div>
            </div>
            <div className="prod-div">
-             {TopMobilesData.map((el,i)=><div key={el.Model} onClick={()=>navigate(`/product/${el.Brand}-${el.Model}`)}>
+             {TopMobilesData.map((el,i)=><div key={el.Model} onClick={()=>navigate(`/product/${el._id}`)}>
                <div className="top_prod_main">
                <div style={{width:"100%",display:"flex", justifyContent:"space-between", position:"absolute", color:"white"}}>
                   <div className="all_prod_screen"><FullscreenIcon /><div>{el.Screen_Size} inch</div></div>
