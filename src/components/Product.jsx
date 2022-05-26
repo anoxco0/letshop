@@ -46,7 +46,7 @@ export const Product = ()=>{
   }
   const filter_product = (e, value)=>{
     if(e==='sort'){
-      setSort(`_sort=total_prce&_order=${value.target.value}`)
+      setSort(`_sort=total_price&_order=${value.target.value}`)
     }
     else if(e.target.checked) setFilter([...Filter,value]);
     else setFilter(Filter.filter((el)=>{
