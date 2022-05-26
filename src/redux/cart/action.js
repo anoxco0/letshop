@@ -18,7 +18,9 @@ export const PATCH_CART_FAILURE = "PATCH_CART_FAILURE";
 export const DELETE_CART_LOADING = "DELETE_CART_LOADING";
 export const DELETE_CART_SUCCESS = "DELETE_CART_SUCCESS";
 export const DELETE_CART_FAILURE = "DELETE_CART_FAILURE";
-
+export const ADDRESS_LOADING="ADDRESS_LOADING";
+export const ADDRESS_SUCCESS="ADDRESS_SUCCESS";
+export const ADDRESS_FAILURE="ADDRESS_FAILURE";
 
 export const cartItemList = (payload) => ({
     type: CART_ITEM_LIST,
@@ -76,6 +78,15 @@ export const deleteCartSuccess = () => ({
 })
 export const deleteCartFailure = () => ({
     type: DELETE_CART_FAILURE
+});
+export const addressLoading = ()=>({
+    type:ADDRESS_LOADING,
+})
+export const addressSuccess=()=>({
+    type:ADDRESS_SUCCESS,
+})
+export const addressFailure=()=>({
+    type:ADDRESS_FAILURE,
 })
 
 export const get_cart = () => (dispatch) => {

@@ -336,7 +336,7 @@ export const Checkout = () => {
                         <div style={{ color: "green", fontSize: "16px", fontWeight: "600" }}>You will save ₹{Intl.NumberFormat('en-IN').format(TotalDiscount)} on this order</div>
                     </div>
                     <div style={{ width: "90%",display:"flex", justifyContent: "end", paddingBottom:"40px"}}>
-                        <Button variant="contained" color="success" onClick={()=>swapStatus(2)}>
+                        <Button variant="contained" color="success" onClick={()=>{swapStatus(2); }}>
                             <StoreOutlinedIcon /> Proceed to buy
                         </Button>
                     </div>
